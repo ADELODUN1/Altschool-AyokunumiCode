@@ -1,0 +1,36 @@
+.repo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  padding: 1em;
+  border-bottom: 1px solid chocolate;
+}
+
+.repo-card > div:first-child {
+  font-size: 1.5em;
+}
+
+.repo-card > div:last-child {
+  font-size: small;
+  display: flex;
+  gap: 1em;
+}
+
+.link-to-repo {
+  text-decoration: none;
+  /* background-color: e ; */
+  /* padding: 1em 0; */
+  color: chocolate;
+  text-decoration-line: underline;
+}
+
+.link-to-repo:hover {
+  color: rgb(230, 125, 50);
+}

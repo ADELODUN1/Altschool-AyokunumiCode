@@ -1,0 +1,22 @@
+.repo-details {
+  margin: 2em;
+  padding: 1em;
+  border: 1px solid chocolate;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.repo-details .repo-name {
+  color: chocolate;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.repo-details .repo-meta {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  font-size: small;
+}

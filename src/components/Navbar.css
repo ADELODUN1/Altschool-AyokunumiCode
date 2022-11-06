@@ -1,0 +1,16 @@
+.navbar {
+  padding: 0 1em;
+  display: flex;
+  gap: 1em;
+  background-color: rgb(210, 105, 30);
+}
+.navbar a {
+  flex: 1;
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+.navbar a.active {
+  background-color: rgb(230, 125, 50);
+}
